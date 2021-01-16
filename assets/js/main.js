@@ -76,5 +76,20 @@
 
 		}
 		
+		
 
 })(jQuery);
+
+function initMap() {	
+	const brdo = { lat: 44.65453215459004, lng: 20.722136336399533 }
+	
+	const map = new google.maps.Map(document.getElementById("map"), {
+	  zoom: 4,
+	  center: brdo,
+	});
+	const marker = new google.maps.Marker({
+	  position: brdo,
+	  map: map,
+	});
+  }
+  

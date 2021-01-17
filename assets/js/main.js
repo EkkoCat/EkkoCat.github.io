@@ -82,6 +82,7 @@
 
 function initMap() {	
 	const brdo = { lat: 44.65453215459004, lng: 20.722136336399533 }
+	const river= { lat: 17.399356601271506, lng: 9.362632197643192 }
 	
 	const map = new google.maps.Map(document.getElementById("map"), {
 	  zoom: 4,
@@ -90,6 +91,10 @@ function initMap() {
 	const marker = new google.maps.Marker({
 	  position: brdo,
 	  map: map,
+	});
+	const marker1 = new google.maps.Marker({
+		position: river,
+		map: map,
 	});
   }
   

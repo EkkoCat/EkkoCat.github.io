@@ -85,7 +85,7 @@ function initMap() {
 	const river= { lat: 17.399356601271506, lng: 9.362632197643192 }
 	
 	const map = new google.maps.Map(document.getElementById("map"), {
-	  zoom: 4,
+	  zoom: 3,
 	  center: brdo,
 	});
 	const marker = new google.maps.Marker({

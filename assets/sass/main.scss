@@ -19,8 +19,6 @@
 		xsmall:   ( null,    480px  ),
 	));
 
-// Reset.
-// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -96,8 +94,7 @@
 		width: device-width;
 	}
 
-	// Set box model to border-box.
-	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+	
 		html {
 			box-sizing: border-box;
 		}
@@ -1770,7 +1767,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/backround.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1895,7 +1892,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/backround.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1916,7 +1913,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/backround.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
